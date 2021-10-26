@@ -31,6 +31,5 @@
   height: 140%;
 
   background: var(--default-left-side-main-theme);
-  var(--default-left-side-main-theme): blue;
   border-radius: 30px;
 }
