@@ -1,0 +1,6 @@
+.card__left-side__avatar {
+  margin-top: 12%;
+
+  border-radius: 100px;
+  box-shadow: 12px 12px var(--default-avatar-shadow-color);
+}

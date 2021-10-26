@@ -1,0 +1,17 @@
+.card__left-side__download-cv {
+  display: block;
+  cursor: pointer;
+}
+
+.card__left-side__download-cv:hover {
+  transform: scale(1.3);
+}
+
+.card__change-theme {
+  position: absolute;
+}
+
+.card__change-theme__slider {
+  position: absolute;
+  cursor: pointer;
+}
