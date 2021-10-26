@@ -12,6 +12,6 @@
 }
 
 .card__change-theme__slider {
-  position: absolute;
+  position: relative;
   cursor: pointer;
 }
