@@ -1,8 +1,8 @@
 const slider = document.getElementById("card__change-theme__slider");
 slider.addEventListener("click", changeTheme);
 
-const N_PROPS = 6;
-const PROPS_NAMES = ["-left-side-main-theme", "-right-side-main-theme",
+const N_PROPS = 7;
+const PROPS_NAMES = ["-all-page-main-theme", "-left-side-main-theme", "-right-side-main-theme",
     "-font-color", "-border-color", "-theme-change-strip-color",
     "-avatar-shadow-color"];
 

@@ -1,7 +1,15 @@
+@keyframes changeTheme {
+  from {
+
+  }
+  to {}
+}
+
 body {
   width: 100vw;
   height: 100vh;
 
+  background: var(--default-all-page-main-theme);
   font-family: Helvetica, sans-serif;
 }
 
