@@ -1,8 +1,0 @@
-.hello {
-  display: block;
-  position: absolute;
-  top: 100px;
-  left: 100px;
-  background: chartreuse;
-  transform: skewY(20deg);
-}
