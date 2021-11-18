@@ -4,12 +4,12 @@
   width: 43.5%;
   height: 7.5%;
 
-  border: 2px solid var(--default-border-color);
+  border: 2px solid var(--border-color);
   border-radius: 40px;
-  background: var(--default-left-side-main-theme);
+  background: var(--left-side-main-theme);
 
   font-size: 17px;
-  color: var(--default-font-color);
+  color: var(--font-color);
 }
 
 .card__change-theme {
@@ -20,17 +20,15 @@
   height: 17px;
 
   border-radius: 30px;
-  background: var(--default-theme-change-strip-color);
+  background: var(--theme-change-strip-color);
 }
 
 .card__change-theme__slider {
   top: -15%;
-  left: 80%;
 
   width: 35%;
   height: 140%;
 
-  background: var(--default-left-side-main-theme);
-  var(--default-left-side-main-theme): blue;
+  background: var(--left-side-main-theme);
   border-radius: 30px;
 }

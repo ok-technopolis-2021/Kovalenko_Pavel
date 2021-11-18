@@ -1,13 +1,13 @@
-@import "reset.css";
+@import "reset.scss";
 
-@import "default.css";
-@import "light.css";
+@import "default.scss";
+@import "light.scss";
 
-@import "../project/card.css";
-@import "../cosmetic/card.css";
+@import "src/styles/project/card.scss";
+@import "src/styles/cosmetic/card.scss";
 
-@import "../project/card_left_side.css";
-@import "../cosmetic/card_left_side.css";
+@import "src/styles/project/card_left_side.scss";
+@import "src/styles/cosmetic/card_left_side.scss";
 
-@import "../project/card_right_side.css";
-@import "../cosmetic/card_right_side.css";
+@import "src/styles/project/card_right_side.scss";
+@import "src/styles/cosmetic/card_right_side.scss";

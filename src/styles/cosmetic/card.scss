@@ -1,0 +1,16 @@
+body {
+  width: 100vw;
+  height: 100vh;
+
+  background: var(--all-page-main-theme);
+  font-family: Helvetica, sans-serif;
+}
+
+.card {
+  width: 1127px;
+  height: 595px;
+
+  color: var(--font-color);
+  background: var(-left-side-main-theme);
+  border-radius: 30px;
+}
