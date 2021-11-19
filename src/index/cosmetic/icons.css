@@ -1,0 +1,11 @@
+.card__left-side__contacts-vk-logo,
+.card__left-side__contacts-tg-logo,
+.card__left-side__contacts-github-logo {
+  width: 24px;
+  height: 24px;
+}
+
+.card__left-side__contacts-github-logo {
+  background: white;
+  border-radius: 30px;
+}

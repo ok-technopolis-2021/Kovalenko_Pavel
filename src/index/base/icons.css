@@ -1,0 +1,5 @@
+.card__left-side__contacts-vk-logo,
+.card__left-side__contacts-tg-logo,
+.card__left-side__contacts-github-logo {
+  cursor: pointer;
+}

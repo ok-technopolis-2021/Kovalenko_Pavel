@@ -1,0 +1,13 @@
+@import "src/index/reset.css";
+
+@import "src/index/project/card.css";
+@import "src/index/cosmetic/card.css";
+
+@import "src/index/cosmetic/styles/default.css";
+@import "src/index/cosmetic/styles/light.css";
+
+@import "src/index/project/card_left_side.css";
+@import "src/index/cosmetic/card_left_side.css";
+
+@import "src/index/project/card_right_side.css";
+@import "src/index/cosmetic/card_right_side.css";

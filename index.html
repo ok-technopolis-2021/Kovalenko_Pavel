@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="index.css">
+  <title>Pavel Kovalenko - Main page</title>
+</head>
+<body>
+  <div class="card">
+    <div class="card__left-side">
+      <img class="card__left-side__avatar" id="card__left-side__avatar"
+           src="recources/anonymous.jpg" height="180" alt="avatar">
+      <div class="card__left-side__name">Pavel Kovalenko</div>
+      <div class="card__left-side__profession">Web Designer</div>
+      <div class="card__left-side__contacts">
+        <a href="https://vk.com/id608406518" target="_blank">
+          <img class="card__left-side__contacts-vk-logo"
+               src="recources/vk-logo.png" height="50" alt="VK">
+        </a>
+
+        <a href="https://t.me/PaaavelZ" target="_blank">
+          <img class="card__left-side__contacts-tg-logo"
+               src="recources/tg-logo.png" height="50" alt="TG">
+        </a>
+
+        <a href="https://github.com/PaaavelZ" target="_blank">
+          <img class="card__left-side__contacts-github-logo"
+               src="recources/github-logo.png" height="50" alt="GitHub">
+        </a>
+      </div>
+      <button class="card__left-side__download-cv"
+              onclick='location.href="#"'>
+          Download CV
+      </button>
+      <footer class="card__left-side__copyright">@2021 All rights reserved.</footer>
+    </div>
+
+    <div class="card__right-side">
+      <div class="card__right-side__name">Pavel Kovalenko</div>
+      <div class="card__right-side__profession">Web Designer</div>
+    </div>
+
+    <div class="card__change-theme">
+      <button class="card__change-theme__slider" id="card__change-theme__slider"></button>
+    </div>
+  </div>
+
+  <script src="src/index/cosmetic/change_theme.js"></script>
+</body>
+</html>
