@@ -21,14 +21,14 @@
 
   border-radius: 30px;
   background: var(--theme-change-strip-color);
-}
 
-.card__change-theme__slider {
-  top: -15%;
+  &__slider {
+    top: -15%;
 
-  width: 35%;
-  height: 140%;
+    width: 35%;
+    height: 140%;
 
-  background: var(--left-side-main-theme);
-  border-radius: 30px;
+    background: var(--left-side-main-theme);
+    border-radius: 30px;
+  }
 }
