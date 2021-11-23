@@ -6,10 +6,10 @@ const rollup = require('rollup');
 const image = require('gulp-image');
 
 const assetsPath = 'src/assets/*.{png,jpg,svg}';
-const stylesPath = './src/styles/**/*.scss';
+const stylesPath = 'src/styles/index.scss';
 const jsPath = 'src/**/*.js';
 const htmlPath = 'src/index.html';
-const distPath = './dist/'
+const distPath = './docs/'
 const rollupConfig = {
     input: 'src/index.js',
     plugins: []
@@ -33,7 +33,7 @@ gulp.task('rollup', async (done) => {
 
     bundle.write({
         format: 'esm',
-        file: 'dist/index.js'
+        file: 'docs/index.js'
     });
 
     done();
@@ -73,9 +73,9 @@ gulp.task('assets', function () {
  */
 gulp.task('html', function () {
     const target = gulp.src(htmlPath);
-    const sources = gulp.src(['./dist/**/*.js', './dist/**/*.css'], {read: false});
+    const sources = gulp.src(['./docs/index.js', './docs/index.css'], {read: false});
 
-    return target.pipe(inject(sources, {ignorePath: '../dist', relative: true, addPrefix: '.'}))
+    return target.pipe(inject(sources, {ignorePath: '../docs', relative: true, addPrefix: '.'}))
         .pipe(gulp.dest(distPath));
 });
 
