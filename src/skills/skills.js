@@ -55,7 +55,7 @@ class Skill {
         const deleteSkillButton = document.createElement("input");
         deleteSkillButton.type = "image";
         deleteSkillButton.onclick = function() {removeSkill(skill.id)};
-        deleteSkillButton.src = "rubbish-bin.svg";
+        deleteSkillButton.src = "src/skills/rubbish-bin.svg";
         deleteSkillButton.style.width = "30px";
         deleteSkillButton.alt = "skill delete button";
         deleteSkillButton.style.cursor = "pointer";
