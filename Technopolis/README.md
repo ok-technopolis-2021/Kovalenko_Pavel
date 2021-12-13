@@ -26,16 +26,18 @@ SCSS файлами теперь занимается gulp, тк это в це�
 
 В нашем файле index.html добавляем по примеру точки вставки стилей и js для плагина gulp , gulp-inject
 
-/<!DOCTYPE html/>
-/<html/>
-/<head/>
-  /<title/>My index/</title/>
-  /<!-- inject:css --/>
-  /<!-- endinject --/>
-/</head/>
-/<body/>
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My index</title>
+  <!-- inject:css -->
+  <!-- endinject -->
+</head>
+<body>
 
-  /<!-- inject:js --/>
-  /<!-- endinject --/>
-/</body/>
-/</html/>
+  <!-- inject:js -->
+  <!-- endinject -->
+</body>
+</html>
+```
