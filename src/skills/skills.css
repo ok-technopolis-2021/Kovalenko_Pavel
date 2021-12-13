@@ -1,0 +1,53 @@
+body {
+  width: 100vw;
+  height: 100vw;
+  background: #C0C0C0;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 40%;
+  background: #222222;
+  border-radius: 30px;
+}
+
+.skills__header {
+  display: flex;
+  flex-direction: row;
+  font-size: 2em;
+  margin: 2% 0 0 5%;
+}
+
+.skills__header__text {
+  display: block;
+  margin: 0 0 0 10%;
+}
+
+.skills__header__add-skill {
+  display: block;
+  margin: 0 0 0 250%;
+}
+
+.skills__header__form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 15%;
+}
+
+.skills__header__form__skill-name-input,
+.skills__header__form__skill-ratio-input {
+  border-radius: 30px;
+  color: yellow;
+  background: black;
+  height: 30px;
+  width: 100px;
+}
+
+.skills__header__form__skill-ratio-input {
+  margin-top: 8%;
+}
