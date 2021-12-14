@@ -9,19 +9,19 @@
 </head>
 <body>
   <div class="skills" id="skills">
+    <!--Skills header description-->
     <div class="skills__header">
       <div class="skills__header__text">Coding Skills</div>
-      <a id="skills__header__add-skill-wrap">
-        <img class="skills__header__add-skill" id="skills__header__add-skill"
-             src="src/skills/plus.svg" width="30px" alt="adding skill">
-      </a>
       <form class="skills__header__form" id="skills__header__form">
-        <input class="skills__header__form__skill-name-input" type="text" size="10"
+        <input class="skills__header__form__name" type="text" size="10"
                placeholder="Skills name">
-        <input class="skills__header__form__skill-ratio-input" type="number" size="3" min="0" max="100"
+        <input class="skills__header__form__ratio" type="number" size="3" min="0" max="100"
                placeholder="Skills ratio">
+        <button type="submit" class="skills__header__add-skill"  id="add-skill"></button>
       </form>
     </div>
+
+    <!--Skills description-->
   </div>
 
   <script src="src/skills/skills.js"></script>
